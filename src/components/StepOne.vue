@@ -40,7 +40,7 @@ export default {
   height: 1000px;
   border: solid;
 }
-.order{
+.order {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,11 +49,11 @@ export default {
   height: 150px;
   margin: 10px;
 }
-.column{
-  display:flex;
+.column {
+  display: flex;
   justify-content: center;
   align-items: center;
-  width:30%;
+  width: 30%;
   height: 150px;
   border-radius: 10px;
   background-color: #72a0c1;
