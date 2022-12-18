@@ -7,12 +7,11 @@
 </template>
 
 <script>
-import { ref } from "vue";
 export default {
   name: "StepThree",
   data: function () {
     return {
-      visible: ref(false),
+      visible: false,
     };
   },
   methods: {
