@@ -1,0 +1,65 @@
+<template>
+  <div class="container">
+    <header>STEP 3 스케줄</header>
+    <div v-if="visible" class="calendar" />
+    <button @click="popCalendar">confidential</button>
+  </div>
+</template>
+
+<script>
+import { ref } from "vue";
+export default {
+  name: "StepThree",
+  data: function () {
+    return {
+      visible: ref(false),
+    };
+  },
+  methods: {
+    popCalendar() {
+      this.visible = !this.visible;
+    },
+  },
+};
+</script>
+
+<style scoped>
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  width: 60%;
+  height: 1000px;
+  border: solid;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 95%;
+  height: 100px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #e52b50;
+}
+.calendar {
+  width: 80%;
+  height: 80%;
+  background-color: black;
+}
+button {
+  position: absolute;
+  border: none;
+  bottom: 0;
+  right: 2%;
+  width: 100px;
+  height: 50px;
+  background-color: #e52b50;
+  color: white;
+  cursor: pointer;
+}
+</style>
