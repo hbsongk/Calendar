@@ -29,8 +29,8 @@ export default {
   align-items: center;
   flex-direction: column;
   align-content: center;
-  width: 60%;
-  height: 1000px;
+  width: 60vw;
+  height: 95vh;
   border: solid;
 }
 
@@ -40,8 +40,8 @@ header {
   align-items: center;
   color: white;
   width: 95%;
-  height: 100px;
-  margin: 10px;
+  height: 10vh;
+  margin: 3%;
   border-radius: 10px;
   background-color: #e52b50;
 }
@@ -55,8 +55,8 @@ button {
   border: none;
   bottom: 0;
   right: 2%;
-  width: 100px;
-  height: 50px;
+  width: 8vw;
+  height: 4vh;
   background-color: #e52b50;
   color: white;
   cursor: pointer;

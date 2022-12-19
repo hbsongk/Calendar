@@ -36,8 +36,8 @@ export default {
   align-items: center;
   flex-direction: column;
   align-content: center;
-  width: 20%;
-  height: 1000px;
+  width: 20vw;
+  height: 95vh;
   border: solid;
 }
 .order {
@@ -46,15 +46,15 @@ export default {
   align-items: center;
   color: white;
   width: 90%;
-  height: 150px;
-  margin: 10px;
+  height: 10vh;
+  margin: 2%;
 }
 .column {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 30%;
-  height: 150px;
+  height: 10vh;
   border-radius: 10px;
   background-color: #72a0c1;
 }
@@ -64,8 +64,8 @@ header {
   align-items: center;
   color: white;
   width: 90%;
-  height: 100px;
-  margin: 10px;
+  height: 10vh;
+  margin: 3%;
   border-radius: 10px;
   background-color: #e52b50;
 }
@@ -76,8 +76,8 @@ header {
   color: white;
   background-color: #007fff;
   width: 90%;
-  height: 80px;
-  margin: 10px;
+  height: 8vh;
+  margin: 2%;
   border-radius: 10px;
 }
 </style>

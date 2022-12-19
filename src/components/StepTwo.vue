@@ -25,8 +25,8 @@ header {
   align-items: center;
   color: white;
   width: 90%;
-  height: 100px;
-  margin: 10px;
+  height: 10vh;
+  margin: 3%;
   border-radius: 10px;
   background-color: #e52b50;
 }
@@ -36,7 +36,7 @@ header {
   flex-direction: column;
   align-content: center;
   width: 20%;
-  height: 1000px;
+  height: 95vh;
   border: solid;
 }
 .step {
@@ -44,10 +44,10 @@ header {
   justify-content: center;
   align-items: center;
   color: white;
-  background-color: #1CAC78;
+  background-color: #1cac78;
   width: 90%;
-  height: 80px;
-  margin: 10px;
+  height: 8vh;
+  margin: 2%;
   border-radius: 50px;
 }
 </style>
